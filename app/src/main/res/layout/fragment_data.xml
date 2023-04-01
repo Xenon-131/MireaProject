@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DataFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textViewTheme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="8sp"
+            android:layout_marginTop="20dp"
+            android:text="@string/data_theme"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewHeaderBasic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginVertical="20dp"
+            android:lineSpacingExtra="8sp"
+            android:text="@string/data_header_basic_structure"
+            android:textAlignment="center" />
+
+        <ImageView
+            android:id="@+id/imageViewBasicStruct"
+            android:layout_width="match_parent"
+            android:layout_height="146dp"
+            android:src="@drawable/basic_struct_1" />
+
+        <TextView
+            android:id="@+id/textViewBasicStruct"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="8sp"
+            android:layout_marginHorizontal="20dp"
+            android:text="@string/data_basic_structure"
+            android:textAlignment="textStart"
+            android:textSize="14sp"
+            android:typeface="normal" />
+
+        <TextView
+            android:id="@+id/textViewHeaderTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="8sp"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginVertical="20dp"
+            android:text="@string/data_header_time"
+            android:textAlignment="center" />
+
+        <ImageView
+            android:id="@+id/imageViewTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/time_struct_1" />
+
+        <TextView
+            android:id="@+id/textViewTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="8sp"
+            android:layout_marginHorizontal="20dp"
+            android:text="@string/data_time" />
+
+        <TextView
+            android:id="@+id/textViewHeaderLocation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="8sp"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginVertical="20dp"
+            android:text="@string/data_header_location"
+            android:textAlignment="center" />
+
+        <ImageView
+            android:id="@+id/imageViewLocation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/location_struct_1" />
+
+        <TextView
+            android:id="@+id/textViewLocation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="8sp"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginBottom="50dp"
+            android:text="@string/data_location" />
+
+    </LinearLayout>
+</FrameLayout>
