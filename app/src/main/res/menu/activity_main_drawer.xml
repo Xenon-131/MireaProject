@@ -34,5 +34,10 @@
             android:icon="@android:drawable/ic_menu_always_landscape_portrait"
             android:title="Sensor" />
 
+        <item
+            android:id="@+id/nav_weather"
+            android:icon="@android:drawable/ic_menu_mapmode"
+            android:title="Weather" />
+
     </group>
 </menu>
